@@ -9,7 +9,7 @@ interface Interface1 {
 	}
 
 	
-	class DemoClass implements  Interface1,  Interface2 {                  // Multiple interfaces or inheritance
+	class A1 implements  Interface1,  Interface2 {                  // Multiple interfaces or inheritance
 	  public void Method1() {
 	    System.out.println("Some text..");
 	  }
@@ -20,7 +20,7 @@ interface Interface1 {
 
 	public class Interface{
 	  public static void main(String[] args) {
-	    DemoClass myObj = new DemoClass();
+	  A1 myObj = new A1();
 	    myObj. Method1();
 	    myObj.  Method2();
 	  }

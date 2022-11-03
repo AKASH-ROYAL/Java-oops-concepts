@@ -7,11 +7,8 @@ public void methodA() {
 System.out.println("method A");
 }
 }
-
-
 class Beta extends Alpha {
 public void methodB() {
-
 System.out.println("Method B");
 }
 }
